@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vue-tsc && vite build && vite build --ssr",
-        "start": "php artisan inertia:start-ssr & php artisan serve"
+        "start": "php artisan inertia:start-ssr"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
