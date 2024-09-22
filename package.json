@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vue-tsc && vite build && vite build --ssr"
+        "build": "vue-tsc && vite build && vite build --ssr",
+        "start": "php artisan inertia:start-ssr & php artisan serve"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
