@@ -3,6 +3,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
 import Button from 'primevue/button';
 import Card from 'primevue/card';
+import InputText from 'primevue/inputtext';
 </script>
 
 <template>
@@ -29,6 +30,8 @@ import Card from 'primevue/card';
                             </p>
                         </template>
                     </Card>
+
+                    <InputText class="mt-8 w-full" />
                     <div class="p-6 text-gray-900 dark:text-gray-100">You're logged in!</div>
                 </div>
             </div>
